@@ -1,10 +1,3 @@
-/**
-* Template Name: Blush MGT
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/Blush MGT-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -177,16 +170,10 @@
 
   });
 
-  /**
-   * Initiate portfolio lightbox 
-   */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
-  /**
-   * Portfolio details slider
-   */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
@@ -200,10 +187,7 @@
       clickable: true
     }
   });
-
-  /**
-   * Scroll with ofset on page load with hash links in the url
-   */
+  
   window.addEventListener('load', () => {
     if (window.location.hash) {
       if (select(window.location.hash)) {
